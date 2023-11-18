@@ -6,7 +6,7 @@ settings:
 
 patchedDependencies:
   is-odd@3.0.1:
-    hash: zlcdnec7hhlm5g24tuvc5o65lu
+    hash: 33xyhiajxxxcocvihtxc5onmjq
     path: patches/is-odd@3.0.1.patch
 
 dependencies:
@@ -21,7 +21,7 @@ dependencies:
     version: 13.5.0(@testing-library/dom@9.3.3)
   is-odd:
     specifier: 3.0.1
-    version: 3.0.1(patch_hash=zlcdnec7hhlm5g24tuvc5o65lu)
+    version: 3.0.1(patch_hash=33xyhiajxxxcocvihtxc5onmjq)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -6007,7 +6007,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /is-odd@3.0.1(patch_hash=zlcdnec7hhlm5g24tuvc5o65lu):
+  /is-odd@3.0.1(patch_hash=33xyhiajxxxcocvihtxc5onmjq):
     resolution: {integrity: sha512-CQpnWPrDwmP1+SMHXZhtLtJv90yiyVfluGsX5iNCVkrhQtU3TQHsUWPG9wkdk9Lgd5yNpAg9jQEo90CBaXgWMA==}
     engines: {node: '>=4'}
     dependencies:

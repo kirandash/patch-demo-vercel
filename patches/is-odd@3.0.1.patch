@@ -1,12 +1,12 @@
 diff --git a/index.js b/index.js
-index 79d1f22a8e7a27efb8841bb83cb682ea1ff3a59c..2c2bf0bfe0bf4f7ac0250124619587449d66ffb0 100644
+index 79d1f22a8e7a27efb8841bb83cb682ea1ff3a59c..e6d0337e23f9816386fc5af8188a323babb28df0 100644
 --- a/index.js
 +++ b/index.js
 @@ -20,6 +20,7 @@ module.exports = function isOdd(value) {
    if (!Number.isSafeInteger(n)) {
      throw new Error('value exceeds maximum safe integer');
    }
-+  // console.log("hello world!")
++  console.log("hello world!")
    return (n % 2) === 1;
  };
  
