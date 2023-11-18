@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import isOdd from 'is-odd';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+console.log(isOdd(2))
 root.render(
   <React.StrictMode>
     <App />
